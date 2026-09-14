@@ -1,0 +1,23 @@
+# The audited code is not ours to redistribute — clone it from upstream:
+#   git clone https://github.com/AlaEddineLaouir/RIPOST.git
+RIPOST/
+
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Campaign outputs (regenerate with the commands in README.md)
+results/
+results_v2/
+*.log
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code session state
+.claude/
